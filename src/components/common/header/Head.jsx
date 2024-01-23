@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { RiYoutubeLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+import img from "./headerlogo.svg";
 const Head = () => {
   const navi = useNavigate();
   return (
@@ -12,7 +13,7 @@ const Head = () => {
         <div className="container flexSB">
           <div className="logo-box">
             <div onClick={() => navi("/")} className="logo-img">
-              <img src="../../../../public/images/headerlogo.svg" />
+              <img src={img} />
             </div>
             <div className="logo-text">
               <h1>BRIGHTLOOM</h1>
