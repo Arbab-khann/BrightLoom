@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useState } from "react";
 // import { useContext } from "react";
 // import { Store } from "../../Dumydata";
 import Heading from "../common/heading/Heading";

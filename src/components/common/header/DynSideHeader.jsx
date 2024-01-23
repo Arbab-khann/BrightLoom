@@ -36,11 +36,11 @@ function DynSideHeader() {
           <h3>
             Academy Full Stack Web Development Career{" "}
             <span>
-              <img src="../../../../public/images/pancuationicon.png" />
+              <img src="../../../images/pancuationicon.png" />
             </span>{" "}
-            Lifetime Access to Lectures{" "}
+            Lifetime Access to Lectures
             <span>
-              <img src="../../../../public/images/schedule.png" />
+              <img src="/public/images/schedule.png" />
             </span>{" "}
             Enrollment : 9 Aug 2023
             <button onClick={() => navi("/courses")} id="dasboard-head-btn">
