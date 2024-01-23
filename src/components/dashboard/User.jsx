@@ -49,8 +49,8 @@ function User(props) {
                   <img
                     src={
                       item.isDone
-                        ? "../../../public/images/headerlogo.svg"
-                        : "../../../public/images/headerlogo.svg"
+                        ? "../../images/headerlogo.svg"
+                        : "../../images/headerlogo.svg"
                     }
                     alt={item.isDone ? "Done" : "Not Done"}
                     style={{
@@ -65,7 +65,7 @@ function User(props) {
                     <div className="cal-block">
                       <img
                         style={{ width: "1.7rem" }}
-                        src="../../../../public/images/reshot-icon-calendar-student-ZUHEPMA3XF.svg"
+                        src="../../images/schedule.png"
                       />
                       <div className="cal-side-text">
                         <p
@@ -92,9 +92,7 @@ function User(props) {
                     <div className="last-visit">
                       <img
                         style={{ width: "1.7rem" }}
-                        src={
-                          "../../../../public/images/reshot-icon-calendar-student-ZUHEPMA3XF.svg"
-                        }
+                        src={"../../images/schedule.png"}
                       />
                       {/* last access time of dashbord enrolled course */}
                       <LastAccessTime />

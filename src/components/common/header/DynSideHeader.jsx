@@ -34,13 +34,13 @@ function DynSideHeader() {
         <div className="dyn-rightside-inner">
           {/* advertisment on users enrolled component */}
           <h3>
-            Academy Full Stack Web Development Career{" "}
+            Academy Full Stack Web Development Career
             <span>
               <img src="../../../images/pancuationicon.png" />
             </span>{" "}
             Lifetime Access to Lectures
             <span>
-              <img src="/public/images/schedule.png" />
+              <img src="../../../images/schedule.png" />
             </span>{" "}
             Enrollment : 9 Aug 2023
             <button onClick={() => navi("/courses")} id="dasboard-head-btn">
