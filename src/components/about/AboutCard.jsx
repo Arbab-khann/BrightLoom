@@ -12,7 +12,7 @@ const AboutCard = () => {
       <section className="aboutHome">
         <div className="container flexSB">
           <div className="left row">
-            <img src="../../../public/images/blog/b2.webp" alt="" />
+            <img src="../images/blog/b2.webp" alt="" />
           </div>
           <div className="right row">
             <Heading

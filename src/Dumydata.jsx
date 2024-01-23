@@ -73,7 +73,7 @@ function Dumydata(props) {
       pricePer: "$15 per month",
       courTeacher: [
         {
-          dcover: "../public/images/testo/t1.webp",
+          dcover: "./images/testo/t1.webp",
           name: "by John Smith",
           totalTime: "50 lectures (190 hrs)",
         },
@@ -126,7 +126,7 @@ function Dumydata(props) {
       coursesName: "Enhancing Adobe Photoshop",
       courTeacher: [
         {
-          dcover: "../public/images/testo/t2.webp",
+          dcover: "./images/testo/t2.webp",
           name: "by Ram Gurung",
           totalTime: "30 lectures (125 hrs)",
         },
@@ -180,7 +180,7 @@ function Dumydata(props) {
         "https://img.freepik.com/free-photo/women-education-notes-studying-nature-workplace_1418-88.jpg?w=740&t=st=1706016089~exp=1706016689~hmac=aa021361fe942ad433524b4a98f0a3fa9a8d64f1c7b0e6cab8844e067a84a876",
       courTeacher: [
         {
-          dcover: "../public/images/testo/t3.webp",
+          dcover: "./images/testo/t3.webp",
           name: "by Saroj Nepal",
           totalTime: "50 lectures (50 hrs)",
         },
