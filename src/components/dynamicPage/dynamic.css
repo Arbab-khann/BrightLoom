@@ -1,0 +1,43 @@
+.dynamic-main {
+  background-color: rgb(209, 203, 203);
+  height: 100%;
+  width: 100%;
+}
+
+.left-block {
+  width: 40%;
+  height: 100%;
+  /*  */
+  margin-top: 2rem;
+}
+
+.img-block img,
+.dyn-btn {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.right-block {
+  width: 60%;
+  height: 100%;
+  /* border: 2px solid red; */
+  margin-top: 2rem;
+}
+.right-block .text-block {
+  width: 100%;
+  margin: 0rem 2rem 3rem 2rem;
+}
+.teacher-img img {
+  width: 50px;
+  height: 50px;
+  /* z-index: 5000000; */
+}
+.text-inner-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-block p {
+  margin-top: 2rem;
+}
